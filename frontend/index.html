@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dr. Jane Smith - General Physician</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Dr. Jane Smith</div>
+    <div class="menu">
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#appointment">Appointment</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="cta-btn">Book Now</button>
+  </nav>
+
+  <header class="hero" id="hero">
+    <h1>Trusted City Healthcare at Your Fingertips</h1>
+    <p>Comprehensive, compassionate care for every stage of life.</p>
+    <button class="cta-btn">Book Now</button>
+  </header>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>General Checkups</h3>
+        <p>Routine health checkups for all ages.</p>
+        <button>Book Now</button>
+      </div>
+      <div class="service-card">
+        <h3>Vaccinations</h3>
+        <p>Stay protected with scheduled vaccines.</p>
+        <button>Book Now</button>
+      </div>
+      <div class="service-card">
+        <h3>Injury Care</h3>
+        <p>Treatment for minor injuries and wounds.</p>
+        <button>Book Now</button>
+      </div>
+      <div class="service-card">
+        <h3>Chronic Care</h3>
+        <p>Ongoing support for long-term conditions.</p>
+        <button>Book Now</button>
+      </div>
+      <div class="service-card">
+        <h3>Women's Health</h3>
+        <p>Care tailored to women's unique needs.</p>
+        <button>Book Now</button>
+      </div>
+      <div class="service-card">
+        <h3>Child Health</h3>
+        <p>Pediatric care for newborns to teens.</p>
+        <button>Book Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <img src="doc.png" alt="Dr. Jane Smith">
+    <div class="about-details">
+      <h2>About the Doctor</h2>
+      <h3>Dr. Jane Smith, MBBS, MD</h3>
+      <p>Dr. Jane Smith is a board-certified general physician with over 15 years of experience in providing holistic and patient-centered healthcare. She is known for her personalized approach, attentive listening, and evidence-based treatment plans. Dr. Smith believes in preventive care and building long-term relationships with her patients.</p>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2>Patient Testimonials</h2>
+    <div class="carousel">
+      <div class="testimonial-card">
+        <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+        "Dr. Jane is wonderful! I always feel heard and cared for."
+        <div class="name">– Alex P.</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">⭐️⭐️⭐️⭐️</div>
+        "Great clinic and great staff. Highly recommended!"
+        <div class="name">– Mira S.</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+        "Prompt, professional, and very friendly!"
+        <div class="name">– Raj V.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="appointment" id="appointment">
+    <h2>Book an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <button type="submit" class="cta-btn">Book Now</button>
+    </form>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-details">
+      <iframe src="https://maps.google.com/maps?q=clinic&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+      <div>
+        <p>📍 123 City Road, Metropolis</p>
+        <p>📞 (123) 456-7890</p>
+        <p>📧 contact@clinic.com</p>
+        <p>🕒 Mon–Fri: 9am – 5pm</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Dr. Jane Smith. All rights reserved.</p>
+  </footer>
+
+  <div id="chatbot-button">💬</div>
+  <div id="chatbot-box" class="hidden">
+    <div class="chat-header">Ask Dr. Jane's Assistant</div>
+    <div id="chat-log"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Ask about services, hours..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
