@@ -21,7 +21,7 @@ async function sendMessage() {
   input.value = "";
 
   try {
-    const res = await fetch('https://physician-website.onrender.com', {
+    const res = await fetch('https://physician-website.onrender.com/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: userText })
